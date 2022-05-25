@@ -11,6 +11,11 @@ Corpus = a collection of raw unlabeled texts
 * [Språkbanken Text](https://spraakbanken.gu.se/en/resources/corpus) -- this is a hub page for many Swedish corpora maintained by the Språkbanken Text, monolingual corpora come from newspapers, blog posts, literature of different years (some from as early as the 18th century). **Note that many of these corpora contain scrambled sentences**.
 * [CC-100](http://data.statmt.org/cc-100/) -- documents extracted from [Common Crawl](https://commoncrawl.org/), automatically classified and filtered. Swedish part is 21 GB of raw text.
 * [mC4](https://github.com/allenai/allennlp/discussions/5056) -- a colossal, cleaned version of Common Crawl's web crawl corpus (C4), Swedish part contains about 65GB of raw text
+* [SOU corpus](https://github.com/UppsalaNLP/SOU-corpus) -- cleaned and further processed versions of Swedish Government Official Reports (Statens offentliga utredningar, SOU), covers the reports between 1994 and 2020
+* [SweDraCor](https://github.com/dracor-org/swedracor) -- corpus of 68 TEI-encoded Swedish language plays taken from [eDrama](https://litteraturbanken.se/dramawebben/sida/edrama) project
+* [Swedish Poetry](https://github.com/aischeveva/swedish_poetry) -- poetry corpus
+* [LBPF](https://github.com/mdahllof/lbpf) -- Swedish prose fiction with modern spelling from Litteraturbanken
+* [SBS](https://www.ling.su.se/english/nlp/corpora-and-resources/sbs) -- a collection of sentences from Swedish blog posts from November 2010 until September 2012, **contains scrambled sentences** -- **NOTE: links seem to be broken as of 2022-05-25**
 
 #### Free and Available by Request
 * [OSCAR](https://oscar-corpus.com/) — **scrambled** sentences extracted from [Common Crawl](https://commoncrawl.org/) and classified with a language detection model. It's Swedish portion comprises 48GB of raw text with roughly 7.5M documents and 5B words
@@ -19,6 +24,7 @@ Corpus = a collection of raw unlabeled texts
 ### Parallel
 * [OPUS](https://opus.nlpl.eu/) -- The Open Parallel Corpus, a hub for parallel datasets for many pairs of languages, including to/from Swedish.
 * [Språkbanken Text](https://spraakbanken.gu.se/en/resources/corpus) -- this is a hub page for many Swedish corpora maintained by the Språkbanken Text, the available parallel corpora are EuroParl (Swedish part of European Parliament Proceedings Parallel Corpus) and ASPAC (Swedish part of The Amsterdam Slavic Parallel Aligned Corpus). **Note that both corpora contain scrambled sentences**.
+* [SMULTRON](https://www.ling.su.se/english/nlp/corpora-and-resources/smultron) -- a parallel treebank that contains around 1000 sentences in English, German and Swedish
 
 ## Datasets
 Dataset = a collection of labeled texts
@@ -26,11 +32,29 @@ Dataset = a collection of labeled texts
 ### Monolingual
 
 #### Free and Downloadable
-* [OverLim](https://huggingface.co/datasets/KBLab/overlim) -- dataset contains some of the GLUE and SuperGLUE tasks automatically translated to Swedish, Danish, and Norwegian (bokmål), using the OpusMT models for MarianMT, **the translation quality was not manually checked**
+
+##### Swedish-first
 * Swedish Universal Dependencies treebanks -- can be used to train PoS-taggers, lemmatizers and dependency parsers
 	- [Talbanken](https://github.com/UniversalDependencies/UD_Swedish-Talbanken/tree/master): 96K tokens, 6K sentences
 	- [LinES](https://github.com/UniversalDependencies/UD_Swedish-LinES/tree/master): 90K tokens, 5K sentences
 	- [PUD](https://github.com/UniversalDependencies/UD_Swedish-PUD/tree/master): 19K tokens, 1K sentences
+* [SweQUAD-MC](https://github.com/dkalpakchi/SweQUAD-MC) -- a multiple choice question answering dataset
+* [Swedish-sentiment](https://github.com/timpal0l/swedish-sentiment) -- a sentiment analysis dataset of 10000 texts with roughly 50/50 split between positive and negative sentiments
+* [Swedish-Causality-Datasets](https://github.com/UppsalaNLP/Swedish-Causality-Datasets) -- namely causality recognition and causality ranking dataset, taking texts from the official reports of Swedish Government
+* [Swedish-MWE-dataset](https://github.com/MurathanKurfali/swedish-mwe-dataset) -- a multiword expression dataset, containing 96 Swedish expressions annotated for their degrees of compositionality
+* Swedish-NER
+	- [by Andreas Klintberg](https://github.com/klintan/swedish-ner-corpus) -- semi-manually annotated Webbnyheter 2012 corpus from Språkbanken, 4 types of named entities: person, organization, location, miscellaneous.
+	- [by Robert Lorentz](https://github.com/robban112/Swedish-NER-corpus)
+	- [The Written Works Corpus](https://github.com/gilleti/the-written-work-corpus) -- named entities for written works: ART, BOOK, GAME, MOVIE, MUSIC, PLAY, RADIO and TV. A bit more detailed description about the corpus is [here](https://www.hillevihagglof.se/2018/09/08/the-written-work-corpus/)
+* [SIC](https://www.ling.su.se/english/nlp/corpora-and-resources/sic) -- a corpus of Swedish Internet tags, manually annotated wth part of speech tags and named entities
+* [SUSC](https://www.ling.su.se/english/nlp/corpora-and-resources/susc) -- a corpus of seven novels by August Strindberg annotated with part of speech tags with morphological analysis and lemmas
+* [SNEC](https://www.ling.su.se/english/nlp/corpora-and-resources/snec) -- The Strindberg National Edition Corpus, both plain text version and linguistically annotated CoNLL-U version -- **NOTE: links seem to be broken as of 2022-05-25**
+
+##### Translated
+* [OverLim](https://huggingface.co/datasets/KBLab/overlim) -- dataset contains some of the GLUE and SuperGLUE tasks automatically translated to Swedish, Danish, and Norwegian (bokmål), using the OpusMT models for MarianMT, **the translation quality was not manually checked**
+* [XNLI](https://github.com/salesforce/xnli_extension) -- an autotranslated (Google Translate) natural language inference (NLI) dataset, **no info about human correction**
+* [STS Benchmark](https://github.com/timpal0l/sts-benchmark-swedish) -- a semantic textual similarity (STS) dataset, automatically translated version of the original STS Benchmark for English using Google's NMT API **without human correction**
+* [SwedSQuAD](https://github.com/Vottivott/swedsquad) -- a machine-translated version of SQuAD (Stanford Question Answering Dataset), **no info about human correction**
 
 #### Free and Available By Request
 * [SUC 2.0](https://spraakbanken.gu.se/index.php/en/resources/suc2) -- annotated with part-of-speech tags, morphological analysis and lemma (all that can be considered gold standard data), as well as some structural and functional information
@@ -93,5 +117,15 @@ And now to the models themselves, where the code snippet above was used to estim
 * [Stanza's models](https://stanfordnlp.github.io/stanza/available_models.html) -- trained on UD treebanks: one on Talbanken and another on LinES
 * [MaltParser](https://www.maltparser.org/mco/mco.html)
 
+### Part of speech taggers
+* [Stagger](https://www.ling.su.se/english/nlp/tools/stagger/stagger-the-stockholm-tagger-1.98986)
+
 ### Machine Translation models to/from Swedish
 * OPUS-MT models: [models on HF Hub](https://huggingface.co/models?language=sv&pipeline_tag=translation&sort=modified)
+
+## Tools
+* [Granska](http://skrutten.csc.kth.se/) -- software for grammar control
+* [Stava](https://www.csc.kth.se/~viggo/stava/) -- software for spell checking
+
+## Other resources
+* Wordlists -- [here](https://github.com/almgru/svenska-ord.txt), [here](https://github.com/martinlindhe/wordlist_swedish) or [here](https://github.com/Maistho/wordlists)
