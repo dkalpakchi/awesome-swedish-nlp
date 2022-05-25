@@ -16,6 +16,7 @@ Corpus = a collection of raw unlabeled texts
 * [Swedish Poetry](https://github.com/aischeveva/swedish_poetry) -- poetry corpus
 * [LBPF](https://github.com/mdahllof/lbpf) -- Swedish prose fiction with modern spelling from Litteraturbanken
 * [SBS](https://www.ling.su.se/english/nlp/corpora-and-resources/sbs) -- a collection of sentences from Swedish blog posts from November 2010 until September 2012, **contains scrambled sentences** -- **NOTE: links seem to be broken as of 2022-05-25**
+* [Project Runneberg](http://runeberg.org/katalog.html) -- copyright-free Swedish literature
 
 #### Free and Available by Request
 * [OSCAR](https://oscar-corpus.com/) — **scrambled** sentences extracted from [Common Crawl](https://commoncrawl.org/) and classified with a language detection model. It's Swedish portion comprises 48GB of raw text with roughly 7.5M documents and 5B words
