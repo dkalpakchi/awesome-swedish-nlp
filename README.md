@@ -72,7 +72,7 @@ Dataset = a collection of labeled texts
 * [NLPL repository](http://vectors.nlpl.eu/repository/) maintained by [Language Techonology Group](https://www.mn.uio.no/ifi/english/research/groups/ltg/) at the University of Oslo
 	- Word2Vec, 100-dimensional: [vecs](http://vectors.nlpl.eu/repository/20/69.zip)
 	- ELMo, 1024-dimensional: [vecs](http://vectors.nlpl.eu/repository/20/202.zip)
-* [Swectors](https://www.ida.liu.se/divisions/hcs/nlplab/swectors/), 300-dimensional (the released vectors are Word2Vec or GloVe? - contact the authors)
+* [Swectors](https://www.ida.liu.se/divisions/hcs/nlplab/swectors/), 300-dimensional (the released vectors are Word2Vec)
 * [Polyglot embeddings](https://sites.google.com/site/rmyeid/projects/polyglot): [vecs](http://bit.ly/19bTH2P)
 * [Kyubyong Park's vectors](https://github.com/Kyubyong/wordvectors)
 	- Word2Vec, 300-dimensional: [vecs](https://drive.google.com/open?id=0B0ZXk88koS2KNk1odTJtNkUxcEk)
