@@ -50,6 +50,7 @@ Dataset = a collection of labeled texts
 * [SIC](https://www.ling.su.se/english/nlp/corpora-and-resources/sic) -- a corpus of Swedish Internet tags, manually annotated wth part of speech tags and named entities
 * [SUSC](https://www.ling.su.se/english/nlp/corpora-and-resources/susc) -- a corpus of seven novels by August Strindberg annotated with part of speech tags with morphological analysis and lemmas
 * [SNEC](https://www.ling.su.se/english/nlp/corpora-and-resources/snec) -- The Strindberg National Edition Corpus, both plain text version and linguistically annotated CoNLL-U version -- **NOTE: links seem to be broken as of 2022-05-25**
+* [SuperLim](https://spraakbanken.gu.se/en/resources/superlim) -- a Swedish version of GLUE benchmark
 
 ##### Translated
 * [OverLim](https://huggingface.co/datasets/KBLab/overlim) -- dataset contains some of the GLUE and SuperGLUE tasks automatically translated to Swedish, Danish, and Norwegian (bokmål), using the OpusMT models for MarianMT, **the translation quality was not manually checked**
