@@ -102,7 +102,7 @@ And now to the models themselves, where the code snippet above was used to estim
 * GPT-2 models
 	- trained on the Wiki40B and OSCAR: [model on HF Hub](https://huggingface.co/birgermoell/swedish-gpt)
 	- trained on the Wiki40B only: [model on HF Hub](https://huggingface.co/flax-community/swe-gpt-wiki)
-* GPT-3 model: [model on HF Hub](https://huggingface.co/AI-Nordics/gpt-sw3)
+* GPT-SW3 model (3.5B parameters): [model on HF Hub](https://huggingface.co/AI-Nordics/gpt-sw3) -- **NOTE: The repository is empty as of 2022-08-23**
 * T5 models
 	- trained on OSCAR: [model on HF Hub](https://huggingface.co/birgermoell/t5-base-swedish)
 
