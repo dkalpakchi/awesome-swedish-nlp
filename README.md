@@ -41,6 +41,8 @@ Dataset = a collection of labeled texts
 	- [LinES](https://github.com/UniversalDependencies/UD_Swedish-LinES/tree/master): 90K tokens, 5K sentences
 	- [PUD](https://github.com/UniversalDependencies/UD_Swedish-PUD/tree/master): 19K tokens, 1K sentences
 * [SweQUAD-MC](https://github.com/dkalpakchi/SweQUAD-MC) -- a multiple choice question answering dataset
+* [Swedish Construction FAQ](https://github.com/zaragoza-ab/swedish-construction-faq-1000) -- 503 bilingual (Swedish/English) Q&A pairs covering Swedish construction industry topics (bygglov, ROT/RUT, ABS 18, dolda fel, Arbetsmiljöverket). Multiple formats (JSON, JSONL, Alpaca, ShareGPT, CSV). CC BY 4.0. Also on [Hugging Face](https://huggingface.co/datasets/DecDEPO/swedish-construction-faq); DOI [10.5281/zenodo.19630803](https://doi.org/10.5281/zenodo.19630803)
+* [Swedish Construction Terminology Glossary](https://github.com/zaragoza-ab/swedish-construction-terminology) -- 350+ terms, trilingual (SV/EN/PL) parallel glossary for construction terminology. CC BY 4.0
 * [Swedish-sentiment](https://github.com/timpal0l/swedish-sentiment) -- a sentiment analysis dataset of 10000 texts with roughly 50/50 split between positive and negative sentiments
 * [Swedish-Causality-Datasets](https://github.com/UppsalaNLP/Swedish-Causality-Datasets) -- namely causality recognition and causality ranking dataset, taking texts from the official reports of Swedish Government
 * [Swedish-MWE-dataset](https://github.com/MurathanKurfali/swedish-mwe-dataset) -- a multiword expression dataset, containing 96 Swedish expressions annotated for their degrees of compositionality
