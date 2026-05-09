@@ -131,6 +131,8 @@ And now to the models themselves, where the code snippet above was used to estim
 ## Tools
 * [Granska](http://skrutten.csc.kth.se/) -- software for grammar control
 * [Stava](https://www.csc.kth.se/~viggo/stava/) -- software for spell checking
+* [Korsordsakuten](https://www.korsordsakuten.se) -- web-based Swedish crossword solver with 400,000+ word forms, synonym search, pattern matching, and clue index
 
 ## Other resources
 * Wordlists -- [here](https://github.com/almgru/svenska-ord.txt), [here](https://github.com/martinlindhe/wordlist_swedish) or [here](https://github.com/Maistho/wordlists)
+
